@@ -1,0 +1,35 @@
+// this question is a simple text question
+[Q1] What is your name? |__|id=cid_00|
+
+//this question is an either/or (Radio button)
+[Q2] Do you like cheese?
+(cid_01) yes
+(cid_02) no
+
+//this is a select one of or Other...
+[Q3] Which is you favorite movie?
+(cid_03) Singing in the Rain
+(cid_04) Rocky
+(cid_05) Star Wars
+(cid_06) Other: |__|id=cid_07|
+
+// this is a select all that apply
+[Q4] Which of these fruit to you eat frequently
+[cid_08] Oranges
+[cid_09] Other Citrus fruit
+[cid_10] Apples
+[cid_11] Pears
+[cid_12] Other: |__|id=cid_13|
+
+|grid?|id="lala"|
+[G1Q3] Sitting with small arm movements (for example, desk or computer work, light assembly, driving, etc.);
+[G1Q2] Standing with some walking (for example, as a store clerk, filing, making copies, walking to/from meetings, working on an assembly line, etc.);
+[G1Q2] Walking and carrying materials weighing less than 50 pounds (for example, delivering mail, waiting tables, light construction, janitorial work, etc.);
+[G1Q3] Walking and heavy manual work often working with materials weighing over 50 pounds (for example, digging and shoveling, chopping wood, laying bricks, stacking hay, or other heavy manual labor, etc.);|
+(14:None)
+(15:Less than 30 minutes)
+(16:30 minutes)
+(17: 45 minutes)
+(18: 1 hour)
+(19: 2 hours)|
+
