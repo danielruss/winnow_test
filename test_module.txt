@@ -3,8 +3,13 @@
 
 //this question is an either/or (Radio button)
 [Q2] Do you like cheese?
-(cid_01) yes
-(cid_02) no
+(cid_01) yes 
+(cid_02) no --> Q3
+
+//Follow up on the question 
+[Q2A] What kind of cheeses?
+[cid_0101] chedder
+[cid_0102] brie
 
 //this is a select one of or Other...
 [Q3] Which is you favorite movie?
@@ -33,3 +38,15 @@
 (18: 1 hour)
 (19: 2 hours)|
 
+<loop>
+[L1] What can I call you |__|
+//this question is an either/or (Radio button)
+[L2] Do you like cheese?
+(cid_l01) yes 
+(cid_l02) no 
+
+[L3] what is your birth date |date|id=cid_l03|
+</loop>
+
+
+[END] Thank you

@@ -5,4 +5,6 @@ edition = "2021"
 
 [dependencies]
 itertools = "0.14.0"
+reqwest = "0.12.14"
+tokio = { version = "1.44.1", features = ["full"] }
 winnow = "0.7.3"

@@ -83,7 +83,7 @@ impl Tree {
         }
     }
 }
-
+#[allow(dead_code)]
 struct TreeIter {
     current_node: Rc<RefCell<TreeNode>>,
     visited: HashSet<u32>,
